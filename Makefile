@@ -3,8 +3,10 @@
 # Github: https://www.github.com/0x4248/GLSL_examples
 # Licence: CC0 (Public Domain)
 # By: 0x4248
+#
+# Makefile
+# Simple makefile to format the GLSL files using clang-format.
 
-# Formmater
 FORMATTER = clang-format
 SRC = src/*.glsl
 
